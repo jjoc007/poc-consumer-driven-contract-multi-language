@@ -1,0 +1,11 @@
+# Logfile created on 2021-05-17 02:33:42 -0500 by logger.rb/47272
+I, [2021-05-17T02:33:43.760109 #40996]  INFO -- : Running example 'Verifying a pact between engine-service and payment-service Given payment exist get payment by ID with GET /payment/pencil returns a response which has status code 200'
+I, [2021-05-17T02:33:43.803222 #40996]  INFO -- : Sending GET request to path: "/payment/pencil" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"payment exist"}]}, see debug logs for body
+D, [2021-05-17T02:33:43.804215 #40996] DEBUG -- : body :
+I, [2021-05-17T02:33:43.911735 #40996]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"72", "Content-Type"=>"application/json", "Date"=>"Mon, 17 May 2021 07:33:43 GMT"}, see debug logs for body
+D, [2021-05-17T02:33:43.912729 #40996] DEBUG -- : body: {"id":"pencil","name":"pencil-123","amount":"10000","category":"office"}
+I, [2021-05-19T07:59:31.294454 #33644]  INFO -- : Running example 'Verifying a pact between engine-service and payment-service Given payment exist get payment by ID with GET /payment/pencil returns a response which has status code 200'
+I, [2021-05-19T07:59:31.337206 #33644]  INFO -- : Sending GET request to path: "/payment/pencil" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"payment exist"}]}, see debug logs for body
+D, [2021-05-19T07:59:31.337206 #33644] DEBUG -- : body :
+I, [2021-05-19T07:59:31.416804 #33644]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"72", "Content-Type"=>"application/json", "Date"=>"Wed, 19 May 2021 12:59:31 GMT"}, see debug logs for body
+D, [2021-05-19T07:59:31.416804 #33644] DEBUG -- : body: {"id":"pencil","name":"pencil-123","amount":"10000","category":"office"}

@@ -1,0 +1,8 @@
+server:
+  port: 8086
+
+user-service:
+  base-url: "http://localhost:8085"
+
+payment-service:
+  base-url: "http://localhost:8087"

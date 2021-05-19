@@ -1,0 +1,58 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'au.com.dius.pact.provider:gradle:4.1.7'
+  }
+}
+
+plugins {
+  id 'org.springframework.boot' version '2.4.5'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+  id 'au.com.dius.pact' version '4.1.6'
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+group = 'co.com.poc.cdc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  testImplementation('org.springframework.boot:spring-boot-starter-test') {
+    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+  }
+
+  compileOnly 'org.projectlombok:lombok'
+  annotationProcessor 'org.projectlombok:lombok'
+
+  testImplementation 'com.github.tomakehurst:wiremock:2.27.2'
+  testImplementation 'au.com.dius.pact.consumer:java8:4.1.7'
+  testImplementation 'au.com.dius.pact.consumer:junit5:4.1.7'
+
+  testImplementation("au.com.dius.pact.provider:junit5:4.1.7")
+}
+
+test {
+  useJUnitPlatform()
+
+  systemProperty 'pact.provider.version', '0.0.1'
+  systemProperty 'pact.provider.tag', 'prod'
+  systemProperty 'pact.verifier.publishResults', 'true'
+}
+
+pact {
+  publish {
+    pactDirectory = 'build/pacts'
+    pactBrokerUrl = 'http://localhost:8000/'
+    pactBrokerUsername = 'pact_workshop'
+    pactBrokerPassword = 'pact_workshop'
+    tags = ['test', 'prod']
+    consumerVersion = '0.0.1'
+  }
+}
