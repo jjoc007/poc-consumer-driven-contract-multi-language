@@ -10,41 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a27a597-8e31-43b7-b903-ec38647f91ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../engine/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/EngineApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/config/EngineServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/controller/EngineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/model/Consolidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/service/PaymentServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/java/co/com/poc/cdc/engine/service/UserServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactMiddleEndServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactPaymentServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactUserServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/payment-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/controller/log/pact.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/controller/payment_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/controller/payment_controller_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/model/payment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/service/payment_service.go" afterDir="false" />
-    </list>
+    <list default="true" id="9a27a597-8e31-43b7-b903-ec38647f91ad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +48,7 @@
       <recent name="C:\Users\juan\dev\meli\POC\poc-consumer-driven-contract-multi-language\services\payment-service\payments\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.payment_controller_test.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="payment-service" />
       <working_directory value="$PROJECT_DIR$" />
@@ -136,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.payment_controller_test.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.payment_controller_test.go (1)" />
         <item itemvalue="Go Test.TestPactProvider in github.com/jjoc007/poc-consumer-driven-contract-multi-language/payments/controller (1)" />
         <item itemvalue="Go Test.TestPactProvider in github.com/jjoc007/poc-consumer-driven-contract-multi-language/payments/controller" />
         <item itemvalue="Go Test.payment_controller_test.go" />
@@ -168,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
