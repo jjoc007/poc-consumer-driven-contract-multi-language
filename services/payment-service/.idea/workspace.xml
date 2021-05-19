@@ -31,6 +31,19 @@
       <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactMiddleEndServiceTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactPaymentServiceTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../engine/src/test/java/co/com/poc/cdc/engine/PactUserServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/payment-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/controller/log/pact.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/controller/payment_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/controller/payment_controller_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/model/payment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments/service/payment_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,37 @@
+plugins {
+  id 'org.springframework.boot' version '2.4.5'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+  id 'java'
+}
+
+group = 'co.com.poc.cdc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+  compileOnly {
+    extendsFrom annotationProcessor
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  compileOnly 'org.projectlombok:lombok'
+  annotationProcessor 'org.projectlombok:lombok'
+  testImplementation('org.springframework.boot:spring-boot-starter-test') {
+    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+  }
+  testImplementation("au.com.dius.pact.provider:junit5:4.1.7")
+}
+
+test {
+  useJUnitPlatform()
+
+  systemProperty 'pact.provider.version', '0.0.1'
+  systemProperty 'pact.provider.tag', 'prod'
+  systemProperty 'pact.verifier.publishResults', 'true'
+}

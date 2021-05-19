@@ -38,7 +38,7 @@ class PactPaymentServiceTests {
 		DslPart body = LambdaDsl.newJsonBody((o) -> o
 			.stringType("name", payment.getName())
 				.stringType("id", payment.getId())
-			.stringType("amount", payment.getAmount())
+				.stringType("amount", payment.getAmount())
 				.stringType("category", payment.getCategory())
 			).build();
 
